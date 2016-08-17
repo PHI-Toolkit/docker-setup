@@ -1,0 +1,3 @@
+#!/bin/bash
+printf "Adding $(whoami) to docker group...\n"
+sudo usermod -aG docker $(whoami)
